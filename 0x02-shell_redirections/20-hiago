@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n && read input && echo $input | tr -d 'cC'
+read input && echo $input | tr -d 'cC'
