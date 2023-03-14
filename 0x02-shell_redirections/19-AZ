@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'Ze' < input.txt > output.txt
+read input; echo "$input"$'\n' | tr -d 'Ac' | tr '[:lower:]' '[:upper:]' | tr 'ze' 'ZE'
